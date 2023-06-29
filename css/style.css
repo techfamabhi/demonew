@@ -1,0 +1,219 @@
+
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html {
+scroll-behavior: smooth;
+}
+     #bgimage{
+padding: 0px;
+margin: 0px;
+
+background-image: url('../images/mae-mu-ZjVPaveuZNo-unsplash2.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center top; 
+background-size: cover;
+background-color: #000;
+width: 100%;
+height: 650px;
+text-align: center;
+
+
+
+flex-wrap: wrap;
+align-items: center;
+justify-content: center; 
+}
+
+#bgtext{
+position: absolute;
+margin-top: 150px;
+
+}
+#second_section{
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+flex-wrap: wrap;
+}
+
+
+
+/* start third section  */
+
+#third_section{
+background-color: #F6F8F5;
+}
+form.example input[type=text] {
+padding: 10px;
+font-size: 17px;
+border: 1px solid grey;
+float: left;
+width: 76%;
+background: #f1f1f1;
+}
+
+form.example button {
+float: left;
+width: 24%;
+padding: 10px;
+background-color: #368007;
+color: white;
+font-size: 17px;
+border: 1px solid grey;
+border-left: none;
+cursor: pointer;
+}
+
+form.example button:hover {
+background: #0b7dda;
+}
+
+form.example::after {
+content: "";
+clear: both;
+display: table;
+}
+
+
+#find_food{
+width: 100%;
+height: 300px;
+
+
+}
+
+/* Start Footer coading */
+
+
+#footer_li{
+float: left;font-size: 11px;color:white ;
+margin-left: 20px;
+}
+
+
+
+#icon_stay_loop:hover{
+color: #368007;
+}
+
+#find_food_image{
+margin-top: 32px;
+}
+
+#find_food_section_two{
+height: 22rem;      
+}
+
+
+#our_ethos_card2
+{
+  background:#34495e;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+
+#our_ethos_card:hover
+{
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heading_main_one{
+  font-family: 'Fraunces', serif;
+  color: #368007;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+#second_section_secnd_div {
+margin-left: 50px;
+}
+#find_food{
+  margin-top: 200px;
+}
+#footer{
+  margin-top: 480px;
+  margin-bottom: 25px;
+}
+#find_food_para{
+margin-top: -30px;
+}
+#find_food_image{
+margin-top: -10px;
+}
+#find_food_section_two{
+ height: 25rem;
+}
+
+
+
+/* Start Reward section */
+#reward_para{
+  margin-top: -55px;
+  font-size: small;
+}
+#reward{
+  font-size: small;
+}
+#reward_para3{
+  font-size: 26px;
+}
+#reward_para2{
+  font-size: medium;
+}
+#reward_para4{
+  font-size: 16px;
+}
+
+
+}
